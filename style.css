@@ -1,0 +1,41 @@
+/* *{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+} */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Student_Records_.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+  }
+  
+  #input{
+    width: 25rem;
+    height: 28rem;
+    box-shadow: 10px 10px 15px rgb(146, 107, 107);
+    position: relative;
+    margin: 6% auto;
+    font-weight: bolder;
+    background-color: #f5eef4;
+    padding: 8px;
+    color: rgb(117, 50, 50);
+    text-align: center;
+  }
+  
+  input{
+    font-weight: bolder;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px white;
+    border-radius: 9px;
+  }
+  
+  p{
+    margin-top: 15px;
+  }
